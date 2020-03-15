@@ -1,9 +1,24 @@
 .App {
-    padding: 10px;
     margin: 0 auto;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
-
   html, body{
       height: 100%;
+}
 
-    }
+.myImage {
+  width: 20%;
+  margin-top:80px;
+  display: block;
+  border-radius: 50%;
+  border: 5px solid orange;
+  margin-left: auto;
+  margin-right: auto;
+}
+.info{
+  display: inline-block;
+  color: #808080;
+}

@@ -43,6 +43,7 @@
 .bar_nav_items a:hover,
 .bar_nav_items a:active {
   color: #3acec2;
+  font-weight: bolder;
 }
 
 .bar_nav_items ul {
