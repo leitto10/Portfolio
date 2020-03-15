@@ -1,13 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {Component} from 'react';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import './App.css'
+import Nav from './components/Nav';
 
-function App() {
+class App extends Component {
+  render(){
   return (
-    <div className="App">
-      <h1>Portfolio in progress...</h1>
-    </div>
+    <Router>
+      <div className="App">
+        <Nav />
+
+      </div>
+    </Router>
   );
 }
-
+}
 export default App;
