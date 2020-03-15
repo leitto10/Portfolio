@@ -1,23 +1,31 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.4c534c2b.chunk.css",
-    "main.js": "/Portfolio/static/js/main.f8f35284.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.f8f35284.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.26d7af6b.chunk.css",
+    "main.js": "/Portfolio/static/js/main.3b244b65.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.3b244b65.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.e1c49509.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.e1c49509.js.map",
-    "static/js/2.d6b3db93.chunk.js": "/Portfolio/static/js/2.d6b3db93.chunk.js",
-    "static/js/2.d6b3db93.chunk.js.map": "/Portfolio/static/js/2.d6b3db93.chunk.js.map",
+    "static/css/2.e49e09ab.chunk.css": "/Portfolio/static/css/2.e49e09ab.chunk.css",
+    "static/js/2.a4e2bed7.chunk.js": "/Portfolio/static/js/2.a4e2bed7.chunk.js",
+    "static/js/2.a4e2bed7.chunk.js.map": "/Portfolio/static/js/2.a4e2bed7.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.3ef56c7cf09e1eec32598ea0c934d389.js": "/Portfolio/precache-manifest.3ef56c7cf09e1eec32598ea0c934d389.js",
+    "precache-manifest.c8aca1751d28c4eb1363fb8fad4847ab.js": "/Portfolio/precache-manifest.c8aca1751d28c4eb1363fb8fad4847ab.js",
     "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.4c534c2b.chunk.css.map": "/Portfolio/static/css/main.4c534c2b.chunk.css.map",
-    "static/js/2.d6b3db93.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.d6b3db93.chunk.js.LICENSE.txt",
-    "static/media/joseluis.jpeg": "/Portfolio/static/media/joseluis.1b8d34a9.jpeg"
+    "static/css/2.e49e09ab.chunk.css.map": "/Portfolio/static/css/2.e49e09ab.chunk.css.map",
+    "static/css/main.26d7af6b.chunk.css.map": "/Portfolio/static/css/main.26d7af6b.chunk.css.map",
+    "static/js/2.a4e2bed7.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.a4e2bed7.chunk.js.LICENSE.txt",
+    "static/media/badHombre.jpg": "/Portfolio/static/media/badHombre.119c047a.jpg",
+    "static/media/coldLake.jpg": "/Portfolio/static/media/coldLake.b7a8f66b.jpg",
+    "static/media/joseluis.jpeg": "/Portfolio/static/media/joseluis.1b8d34a9.jpeg",
+    "static/media/mycar.jpg": "/Portfolio/static/media/mycar.30bd36b4.jpg",
+    "static/media/seattlenight.jpg": "/Portfolio/static/media/seattlenight.ab76ae26.jpg",
+    "static/media/sounders.jpg": "/Portfolio/static/media/sounders.f9476902.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.e1c49509.js",
-    "static/js/2.d6b3db93.chunk.js",
-    "static/css/main.4c534c2b.chunk.css",
-    "static/js/main.f8f35284.chunk.js"
+    "static/css/2.e49e09ab.chunk.css",
+    "static/js/2.a4e2bed7.chunk.js",
+    "static/css/main.26d7af6b.chunk.css",
+    "static/js/main.3b244b65.chunk.js"
   ]
 }
