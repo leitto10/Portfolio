@@ -22,10 +22,10 @@ const Nav = (props) => {
               <li>HOME</li>
             </Link>
             <Link>
-              <li>WORK</li>
+              <li>RESUME</li>
             </Link>
             <Link>
-              <li>PORTFOLIO</li>
+              <li>WORK</li>
             </Link>
             <Link>
               <li>ABOUT</li>
