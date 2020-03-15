@@ -24,6 +24,12 @@ const Nav = (props) => {
             <Link>
               <li>WORK</li>
             </Link>
+            <Link>
+              <li>PORTFOLIO</li>
+            </Link>
+            <Link>
+              <li>ABOUT</li>
+            </Link>
           </ul>
         </div>
       </nav>
