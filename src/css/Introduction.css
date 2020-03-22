@@ -2,7 +2,9 @@
 .introduction{
   display: inline-block;
   color: #808080;
-  width: 45%;
+  width: 60%;
+  padding-top: 10px;
+  padding-bottom: 50px;
 }
 
 p {
