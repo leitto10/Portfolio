@@ -37,7 +37,7 @@ class App extends Component {
           {backDrop}
         <Switch>
             <Route path="/Portfolio" exact component={SlideShow}/>
-            <Route path="/resume" component={Resume}/>
+            <Route path="/Resume" component={Resume}/>
         </Switch>
         <Footer />
       </div>

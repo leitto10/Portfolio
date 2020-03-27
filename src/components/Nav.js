@@ -22,7 +22,7 @@ const Nav = (props) => {
             <Link to="/Portfolio">
               <li>HOME</li>
             </Link>
-            <Link to="/resume">
+            <Link to="/Resume">
               <li>RESUME</li>
             </Link>
           </ul>
