@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "270e3434a7087e4d4fba0711a5140575",
+    "revision": "5008e43c2a54ca41c94849828959b2b2",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "51ae02c424f956668fe3",
+    "revision": "0a4ed95afd36489f1c32",
     "url": "/Portfolio/static/css/2.e49e09ab.chunk.css"
   },
   {
-    "revision": "c3635cd38360a735adde",
-    "url": "/Portfolio/static/css/main.60becb1b.chunk.css"
+    "revision": "5f6ae1b25a96e7b1f82c",
+    "url": "/Portfolio/static/css/main.aa214fb7.chunk.css"
   },
   {
-    "revision": "51ae02c424f956668fe3",
-    "url": "/Portfolio/static/js/2.cc84703e.chunk.js"
+    "revision": "0a4ed95afd36489f1c32",
+    "url": "/Portfolio/static/js/2.eaf44adf.chunk.js"
   },
   {
     "revision": "eff3b4d7e4bb0087ce53139cd90bc880",
-    "url": "/Portfolio/static/js/2.cc84703e.chunk.js.LICENSE.txt"
+    "url": "/Portfolio/static/js/2.eaf44adf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c3635cd38360a735adde",
-    "url": "/Portfolio/static/js/main.d7a43d1e.chunk.js"
+    "revision": "5f6ae1b25a96e7b1f82c",
+    "url": "/Portfolio/static/js/main.24ce1878.chunk.js"
   },
   {
     "revision": "654ea12aa83236a26bec",
     "url": "/Portfolio/static/js/runtime-main.e1c49509.js"
+  },
+  {
+    "revision": "e21b18e158da85fe72ea22f1d4a7df24",
+    "url": "/Portfolio/static/media/azure.e21b18e1.jpg"
   },
   {
     "revision": "119c047a32ff5c22ad5866e18ae3bfa9",
@@ -40,19 +44,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/joseluis.1b8d34a9.jpeg"
   },
   {
-    "revision": "aa9661dbd3fd5b158aac086129f9741e",
-    "url": "/Portfolio/static/media/mementoCRM.aa9661db.jpg"
-  },
-  {
-    "revision": "30bd36b4bc4c5f2a3bec6940b2970fc7",
-    "url": "/Portfolio/static/media/mycar.30bd36b4.jpg"
+    "revision": "ce6375183d2d6af0ec04599de648c32d",
+    "url": "/Portfolio/static/media/pythonCodigo.ce637518.jpg"
   },
   {
     "revision": "ab76ae267b5483f0222f8e796835a60e",
     "url": "/Portfolio/static/media/seattlenight.ab76ae26.jpg"
-  },
-  {
-    "revision": "f947690298b6326a60fee2bf86a23183",
-    "url": "/Portfolio/static/media/sounders.f9476902.jpg"
   }
 ]);
