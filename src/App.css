@@ -9,18 +9,3 @@
       height: 100%;
 }
 
-.myImage {
-  width: 20%;
-  margin-top:80px;
-  display: block;
-  border-radius: 50%;
-  border: 5px solid orange;
-  margin-left: auto;
-  margin-right: auto;
-}
-.memento {
-  width: 70%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}

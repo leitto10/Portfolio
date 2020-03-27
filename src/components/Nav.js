@@ -4,7 +4,7 @@
 ==================================== */
 
 import React from 'react';
-
+import DrawerToggleButton from './DrawerToggleButton';
 import '../css/Nav.css';
 import { Link } from 'react-router-dom';
 
@@ -13,6 +13,7 @@ const Nav = (props) => {
     <header className="main_header">
       <nav className="bar_navitagion">
         <div className="nav_toggle_button">
+        <DrawerToggleButton click={props.drowerClickHandler}/>
         </div>
         <div className="logo"><a href="/">Jose L Lopez</a></div>
         <div className="spacer" />
@@ -21,14 +22,8 @@ const Nav = (props) => {
             <Link to="/">
               <li>HOME</li>
             </Link>
-            <Link>
+            <Link to="/resume">
               <li>RESUME</li>
-            </Link>
-            <Link>
-              <li>WORK</li>
-            </Link>
-            <Link>
-              <li>ABOUT</li>
             </Link>
           </ul>
         </div>

@@ -1,0 +1,28 @@
+/* =================================
+  Styles for the hambuger button which
+  is the DrawerToggleButton Component
+==================================== */
+
+.toggle_button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20px;
+    width: 30px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .toggle_button:focus {
+    outline: none;
+  }
+  
+  .toggle_button_line {
+    width: 25px;
+    height: 3px;
+    background: #093a58;
+  }
+  
