@@ -1,31 +1,31 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.aa214fb7.chunk.css",
-    "main.js": "/Portfolio/static/js/main.24ce1878.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.24ce1878.chunk.js.map",
-    "runtime-main.js": "/Portfolio/static/js/runtime-main.e1c49509.js",
-    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.e1c49509.js.map",
-    "static/css/2.e49e09ab.chunk.css": "/Portfolio/static/css/2.e49e09ab.chunk.css",
-    "static/js/2.eaf44adf.chunk.js": "/Portfolio/static/js/2.eaf44adf.chunk.js",
-    "static/js/2.eaf44adf.chunk.js.map": "/Portfolio/static/js/2.eaf44adf.chunk.js.map",
-    "index.html": "/Portfolio/index.html",
-    "precache-manifest.91677827bc03536bd292800c30682a0c.js": "/Portfolio/precache-manifest.91677827bc03536bd292800c30682a0c.js",
-    "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/2.e49e09ab.chunk.css.map": "/Portfolio/static/css/2.e49e09ab.chunk.css.map",
-    "static/css/main.aa214fb7.chunk.css.map": "/Portfolio/static/css/main.aa214fb7.chunk.css.map",
-    "static/js/2.eaf44adf.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.eaf44adf.chunk.js.LICENSE.txt",
-    "static/media/azure.jpg": "/Portfolio/static/media/azure.e21b18e1.jpg",
-    "static/media/badHombre.jpg": "/Portfolio/static/media/badHombre.119c047a.jpg",
-    "static/media/coldLake.jpg": "/Portfolio/static/media/coldLake.b7a8f66b.jpg",
-    "static/media/joseluis.jpeg": "/Portfolio/static/media/joseluis.1b8d34a9.jpeg",
-    "static/media/pythonCodigo.jpg": "/Portfolio/static/media/pythonCodigo.ce637518.jpg",
-    "static/media/seattlenight.jpg": "/Portfolio/static/media/seattlenight.ab76ae26.jpg"
+    "main.css": "/static/css/main.aa214fb7.chunk.css",
+    "main.js": "/static/js/main.fe13b634.chunk.js",
+    "main.js.map": "/static/js/main.fe13b634.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c70048c8.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c70048c8.js.map",
+    "static/css/2.e49e09ab.chunk.css": "/static/css/2.e49e09ab.chunk.css",
+    "static/js/2.eaf44adf.chunk.js": "/static/js/2.eaf44adf.chunk.js",
+    "static/js/2.eaf44adf.chunk.js.map": "/static/js/2.eaf44adf.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.15e37e3998d227e38657b945efa79592.js": "/precache-manifest.15e37e3998d227e38657b945efa79592.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.e49e09ab.chunk.css.map": "/static/css/2.e49e09ab.chunk.css.map",
+    "static/css/main.aa214fb7.chunk.css.map": "/static/css/main.aa214fb7.chunk.css.map",
+    "static/js/2.eaf44adf.chunk.js.LICENSE.txt": "/static/js/2.eaf44adf.chunk.js.LICENSE.txt",
+    "static/media/azure.jpg": "/static/media/azure.e21b18e1.jpg",
+    "static/media/badHombre.jpg": "/static/media/badHombre.119c047a.jpg",
+    "static/media/coldLake.jpg": "/static/media/coldLake.b7a8f66b.jpg",
+    "static/media/joseluis.jpeg": "/static/media/joseluis.1b8d34a9.jpeg",
+    "static/media/pythonCodigo.jpg": "/static/media/pythonCodigo.ce637518.jpg",
+    "static/media/seattlenight.jpg": "/static/media/seattlenight.ab76ae26.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e1c49509.js",
+    "static/js/runtime-main.c70048c8.js",
     "static/css/2.e49e09ab.chunk.css",
     "static/js/2.eaf44adf.chunk.js",
     "static/css/main.aa214fb7.chunk.css",
-    "static/js/main.24ce1878.chunk.js"
+    "static/js/main.fe13b634.chunk.js"
   ]
 }
