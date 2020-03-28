@@ -8,6 +8,8 @@ import SideDrawer from './components/SideDrawer';
 import BackDrop from './components/BackDrop';
 import './App.css'
 
+let hashHistory = Router.hashHistory;
+
 class App extends Component {
   state = {
     SideDrawerOpen: false
@@ -30,7 +32,7 @@ class App extends Component {
       backDrop = <BackDrop click={this.backDropClickHandler}/>
     }
   return (
-    <Router>
+    <Router history={hashHistory}>
       <div className="App">
       <Nav drowerClickHandler={this.drowerToggleClickHandler}/>
       <SideDrawer show={this.state.sideDrawerOpen}/>
