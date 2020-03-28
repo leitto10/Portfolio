@@ -36,7 +36,7 @@ class App extends Component {
       <SideDrawer show={this.state.sideDrawerOpen}/>
           {backDrop}
         <Switch>
-            <Route path="/" exact component={SlideShow}/>
+            <Route path="/portfolio" exact component={SlideShow}/>
             <Route path="/resume" component={Resume}/>
         </Switch>
         <Footer />
