@@ -18,7 +18,7 @@ const Nav = (props) => {
         <div className="spacer" />
         <div className="bar_nav_items">
           <ul>
-            <Link to="/Portfolio/">
+            <Link to="/Portfolio">
               <li>HOME</li>
             </Link>
             <Link to="/resume">

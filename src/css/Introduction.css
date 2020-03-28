@@ -20,3 +20,12 @@
   margin-right: auto;
   margin-top: 10%;
 }
+
+@media screen and (min-width: 1025px) {
+  .introduction {
+    width: 60%;
+    padding-top: 8%;
+    margin: auto;
+  }
+  
+}
