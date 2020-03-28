@@ -1,15 +1,14 @@
 
-.introduction{
+.introduction {
   display: inline-block;
-  color: #808080;
   width: 90%;
   padding-top: 10px;
   padding-bottom: 50px;
+  font-size: 1.25em;
+  line-height: 1.6;
 }
 
-p {
-  font-weight: bold;
-}
+
 
 .myImage {
   width: 20%;

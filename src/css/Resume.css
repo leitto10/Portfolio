@@ -1,4 +1,47 @@
 
 .myResume {
-  margin-top: 5%;
+  margin-top: 15%;
+  text-align: left;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.myResume li {
+  font-size: 1.25em;
+  line-height: 1.6;
+}
+.myResume h2 {
+  color: rgb(68, 113, 196);
+}
+.heading {
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+.heading h2 {
+  margin: 0;
+  padding: 0;
+}
+.heading h3 {
+  margin: 0;
+  padding: 0;
+}
+.heading p {
+  margin: 0;
+  padding: 0;
+}
+.heading a {
+  margin: 0;
+  padding: 0;
+}
+.bulletPoints {
+  padding-left: 25px;
+}
+
+@media screen and (min-width: 1025px) {
+  .myResume {
+    width: 60%;
+    padding-top: 8%;
+    margin: auto;
+  }
+  
 }

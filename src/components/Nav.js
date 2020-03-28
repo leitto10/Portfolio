@@ -2,7 +2,6 @@
   This is the Desktop navigation
   component
 ==================================== */
-
 import React from 'react';
 import DrawerToggleButton from './DrawerToggleButton';
 import '../css/Nav.css';
@@ -19,10 +18,10 @@ const Nav = (props) => {
         <div className="spacer" />
         <div className="bar_nav_items">
           <ul>
-            <Link to="/Portfolio">
+            <Link to="/">
               <li>HOME</li>
             </Link>
-            <Link to="/Resume">
+            <Link to="/resume">
               <li>RESUME</li>
             </Link>
           </ul>
