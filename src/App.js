@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {HashRouter as Router, Route, Switch} from "react-router-dom";
 import Nav from './components/Nav';
 import SlideShow from './components/SlideShow';
 import Resume from './components/Resume';
@@ -7,8 +7,6 @@ import Footer from './components/Footer';
 import SideDrawer from './components/SideDrawer';
 import BackDrop from './components/BackDrop';
 import './App.css'
-
-let hashHistory = Router.hashHistory;
 
 class App extends Component {
   state = {
@@ -32,13 +30,13 @@ class App extends Component {
       backDrop = <BackDrop click={this.backDropClickHandler}/>
     }
   return (
-    <Router history={hashHistory}>
+    <Router >
       <div className="App">
       <Nav drowerClickHandler={this.drowerToggleClickHandler}/>
       <SideDrawer show={this.state.sideDrawerOpen}/>
           {backDrop}
         <Switch>
-            <Route path="/Portfolio" exact component={SlideShow}/>
+            <Route path="/" exact component={SlideShow}/>
             <Route path="/resume" component={Resume}/>
         </Switch>
         <Footer />

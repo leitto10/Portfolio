@@ -14,11 +14,11 @@ const Nav = (props) => {
         <div className="nav_toggle_button">
         <DrawerToggleButton click={props.drowerClickHandler}/>
         </div>
-        <div className="logo"><a href="/">Jose L Lopez</a></div>
+        <div className="logo"><Link to="/">Jose L Lopez</Link></div>
         <div className="spacer" />
         <div className="bar_nav_items">
           <ul>
-            <Link to="/Portfolio">
+            <Link to="/">
               <li>HOME</li>
             </Link>
             <Link to="/resume">

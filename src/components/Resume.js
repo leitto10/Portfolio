@@ -19,14 +19,18 @@ class Resume extends Component {
         <h2>TECHNICAL SKILLS</h2>
         <div className="bulletPoints">
           <li>General programming in Java, MySQL, CSS, HTML, PHP and JavaScript.</li>
+          <p>
+            <a href="https://teamtreehouse.com/joseluislopez" target="_blank" 
+            rel="noopener noreferrer" >Treehouse Profile</a>
+          </p>
           <li>Experience working with Android Studio, ReactJs, React Native, Node.js, Git workflow. </li>
           <li>Data Science development with Python programming tools.</li>
-          <p><a href="https://www.datacamp.com/profile/Jose10" target="_blank" 
-          rel="noopener noreferrer">https://www.datacamp.com/profile/Jose10</a></p>
+          <p>
+            <a href="https://www.datacamp.com/profile/Jose10" target="_blank" 
+            rel="noopener noreferrer">https://www.datacamp.com/profile/Jose10</a>
+          </p>
           <li>Cloud Computing Fundamentals with Azure and AWS services.</li>
           <li>Knowledge in Data Structures and Algorithms as well as Web Application Development.</li>
-          <p><a href="https://teamtreehouse.com/joseluislopez" target="_blank" 
-          rel="noopener noreferrer" >Treehouse Profile</a></p>
         </div>
         <h2>EDUCATION</h2>
         <div className="bulletPoints">
@@ -36,10 +40,10 @@ class Resume extends Component {
         </div>
         <h2>RELEVANT EXPERIENCE</h2>
         <div className="bulletPoints">
-          <li>Intern at Glass Eye Studio. Creating a Web Application tool with Reactjs for a 2D event space. </li>
+          <h3>Intern at Glass Eye Studio.</h3>
+          <li>Creating a Web Application tool with Reactjs for a 2D event space. </li>
         </div>
         <h2>PROJECTS</h2>
-        
         <h3>Floop </h3>
           <div className="bulletPoints">
             <p>Software Developer Engineer – Floop Grade Book.           web app practicum       Spring-2019</p>
@@ -53,8 +57,8 @@ class Resume extends Component {
             <li>Created React Native components for Android applications.</li>
             <li>Integrating Firebase authentication and database services.</li>
             <p>
-            <a href="https://play.google.com/store/apps/details?id=com.mementocrm" target="_blank"
-            rel="noopener noreferrer">https://play.google.com/store/apps/details?id=com.mementocrm</a>
+              <a href="https://play.google.com/store/apps/details?id=com.mementocrm" target="_blank"
+              rel="noopener noreferrer">https://play.google.com/store/apps/details?id=com.mementocrm</a>
             </p>
           </div>
         <h3>Pot O' Gold Coffee</h3>

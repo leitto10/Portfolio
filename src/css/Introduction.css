@@ -8,8 +8,6 @@
   line-height: 1.6;
 }
 
-
-
 .myImage {
   width: 20%;
   margin-top:80px;
@@ -24,7 +22,7 @@
 @media screen and (min-width: 1025px) {
   .introduction {
     width: 60%;
-    padding-top: 8%;
+    padding-top: 20px;
     margin: auto;
   }
   
