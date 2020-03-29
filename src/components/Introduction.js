@@ -13,13 +13,13 @@ class Introduction extends Component {
       <div>
         <img className="myImage" src={MyImage} alt="" />
         <div className="introduction">
-          <p>Hello, my name is Jose and I'm a Software Developer Engineer with Computer Science fundamentals.
+          <p className="introContent">Hello, my name is Jose and I'm a Software Developer Engineer with Computer Science fundamentals.
           Looking to work on mobile, web apps, databases, projects and find the best problems solving solutions.
           I have worked on projects that involved key concepts such as Linked Lists,
-          Binary Search Trees, database normalization, and web development.</p>
-          <p>In my free time, I love to play soccer and train with my friends.
+          Binary Search Trees, Databases Normalization, and Web/mobile development.</p>
+          <p className="introContent">In my free time, I love to play soccer and train with my friends.
           I'm always happy to work on new and future projects.
-          Please, don't hesitate to contact me if you have any questions.
+          Please, don't hesitate to contact me if you have any questions.</p>
           <a href="https://www.linkedin.com/in/jose-llopez/" target="_blank"
           rel="noopener noreferrer">
             <p>Linkedin</p>
@@ -28,7 +28,6 @@ class Introduction extends Component {
           rel="noopener noreferrer">
             <p>leitto10@gmail.com</p>
           </a>
-          </p>
         </div>
       </div>
     );

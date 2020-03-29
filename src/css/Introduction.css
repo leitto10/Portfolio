@@ -4,10 +4,11 @@
   width: 90%;
   padding-top: 10px;
   padding-bottom: 50px;
+}
+.introContent {
   font-size: 1.25em;
   line-height: 1.6;
 }
-
 .myImage {
   width: 20%;
   margin-top:80px;
@@ -24,6 +25,10 @@
     width: 60%;
     padding-top: 20px;
     margin: auto;
+  }
+  .introContent {
+    font-size: 1.25em;
+    line-height: 1.6;
   }
   
 }

@@ -2,14 +2,17 @@
 .myResume {
   margin-top: 15%;
   text-align: left;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 .myResume li {
+  font-size: 1.20em;
+  line-height: 1.6;
+}
+p {
   font-size: 1.25em;
   line-height: 1.6;
 }
-
 .myResume h2 {
   color: rgb(68, 113, 196);
 }
@@ -35,7 +38,7 @@
   padding: 0;
 }
 .bulletPoints {
-  padding-left: 25px;
+  padding-left: 20px;
 }
 
 @media screen and (min-width: 1025px) {
