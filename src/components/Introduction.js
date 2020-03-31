@@ -16,7 +16,7 @@ class Introduction extends Component {
           <p className="introContent">Hello, my name is Jose and I'm a Software Developer Engineer with Computer Science fundamentals.
           Looking to work on mobile, web apps, databases, projects and find the best problems solving solutions.
           I have worked on projects that involved key concepts such as Linked Lists,
-          Binary Search Trees, Databases Normalization, and Web/mobile development.</p>
+          Binary Search Trees, Databases Normalization, and web/mobile development.</p>
           <p className="introContent">In my free time, I love to play soccer and train with my friends.
           I'm always happy to work on new and future projects.
           Please, don't hesitate to contact me if you have any questions.</p>

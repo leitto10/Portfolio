@@ -1,0 +1,14 @@
+.potogold {
+    margin-top: 15%;
+    text-align: left;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  @media screen and (min-width: 1025px) {
+    .potogold {
+      width: 60%;
+      padding-top: 8%;
+      margin: auto;
+    }
+  }

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import Introduction from '../components/Introduction';
+import Projects from '../components/Projects';
 
 class SlideShow extends Component {
     render() {
@@ -26,6 +27,7 @@ class SlideShow extends Component {
               </div>
             </Carousel>
             <Introduction/>
+            <Projects />
             </div>
         );
     }

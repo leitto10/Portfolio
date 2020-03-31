@@ -1,11 +1,13 @@
 import React, {Component} from 'react';
-import {HashRouter as Router, Route, Switch} from "react-router-dom";
 import Nav from './components/Nav';
 import SlideShow from './components/SlideShow';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
 import SideDrawer from './components/SideDrawer';
 import BackDrop from './components/BackDrop';
+import MementoCRM from './components/MementoCRM';
+import PotOgold from './components/PotOgold';
+import {HashRouter as Router, Route, Switch} from "react-router-dom";
 import './App.css'
 
 class App extends Component {
@@ -22,10 +24,8 @@ class App extends Component {
   backDropClickHandler = () => {
     this.setState({sideDrawerOpen: false});
   }
-
   render(){
     let backDrop;
-
     if(this.state.sideDrawerOpen){
       backDrop = <BackDrop click={this.backDropClickHandler}/>
     }
@@ -38,11 +38,13 @@ class App extends Component {
         <Switch>
             <Route path="/" exact component={SlideShow}/>
             <Route path="/resume" component={Resume}/>
+            <Route path="/memento" component={MementoCRM}/>
+            <Route path="/potOgold" component={PotOgold} />
         </Switch>
         <Footer />
       </div>
     </Router>
   );
-}
+  }
 }
 export default App;
