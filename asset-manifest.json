@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.0c0813ff.chunk.css",
-    "main.js": "/Portfolio/static/js/main.8365f422.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.8365f422.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.e9e2a70d.chunk.css",
+    "main.js": "/Portfolio/static/js/main.05f2a16b.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.05f2a16b.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.e1c49509.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.e1c49509.js.map",
     "static/css/2.e49e09ab.chunk.css": "/Portfolio/static/css/2.e49e09ab.chunk.css",
-    "static/js/2.3b0d6aa8.chunk.js": "/Portfolio/static/js/2.3b0d6aa8.chunk.js",
-    "static/js/2.3b0d6aa8.chunk.js.map": "/Portfolio/static/js/2.3b0d6aa8.chunk.js.map",
+    "static/js/2.f67fe08b.chunk.js": "/Portfolio/static/js/2.f67fe08b.chunk.js",
+    "static/js/2.f67fe08b.chunk.js.map": "/Portfolio/static/js/2.f67fe08b.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.5165cf796239ef3f4c7b2d327ab6e045.js": "/Portfolio/precache-manifest.5165cf796239ef3f4c7b2d327ab6e045.js",
+    "precache-manifest.1d7def00ee62bdf250dff7bc19df8bbe.js": "/Portfolio/precache-manifest.1d7def00ee62bdf250dff7bc19df8bbe.js",
     "service-worker.js": "/Portfolio/service-worker.js",
     "static/css/2.e49e09ab.chunk.css.map": "/Portfolio/static/css/2.e49e09ab.chunk.css.map",
-    "static/css/main.0c0813ff.chunk.css.map": "/Portfolio/static/css/main.0c0813ff.chunk.css.map",
-    "static/js/2.3b0d6aa8.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.3b0d6aa8.chunk.js.LICENSE.txt",
+    "static/css/main.e9e2a70d.chunk.css.map": "/Portfolio/static/css/main.e9e2a70d.chunk.css.map",
+    "static/js/2.f67fe08b.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.f67fe08b.chunk.js.LICENSE.txt",
     "static/media/azure.jpg": "/Portfolio/static/media/azure.e21b18e1.jpg",
     "static/media/azureProject.png": "/Portfolio/static/media/azureProject.8ef45d39.png",
     "static/media/badHombre.jpg": "/Portfolio/static/media/badHombre.119c047a.jpg",
@@ -25,6 +25,7 @@
     "static/media/functions.png": "/Portfolio/static/media/functions.1167558a.png",
     "static/media/imagePostRe.png": "/Portfolio/static/media/imagePostRe.6f52c4ae.png",
     "static/media/joseluis.jpeg": "/Portfolio/static/media/joseluis.1b8d34a9.jpeg",
+    "static/media/mementoCRM.jpg": "/Portfolio/static/media/mementoCRM.aa9661db.jpg",
     "static/media/mementoLogo.png": "/Portfolio/static/media/mementoLogo.054e6b2c.png",
     "static/media/postRequest.png": "/Portfolio/static/media/postRequest.7c27ba66.png",
     "static/media/postmanPutRequest.png": "/Portfolio/static/media/postmanPutRequest.5c333550.png",
@@ -37,8 +38,8 @@
   "entrypoints": [
     "static/js/runtime-main.e1c49509.js",
     "static/css/2.e49e09ab.chunk.css",
-    "static/js/2.3b0d6aa8.chunk.js",
-    "static/css/main.0c0813ff.chunk.css",
-    "static/js/main.8365f422.chunk.js"
+    "static/js/2.f67fe08b.chunk.js",
+    "static/css/main.e9e2a70d.chunk.css",
+    "static/js/main.05f2a16b.chunk.js"
   ]
 }
