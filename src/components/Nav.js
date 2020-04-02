@@ -27,6 +27,12 @@ const Nav = (props) => {
             <Link to="/potOgold">
               <li>POTOGOLD</li>
             </Link>
+            <Link to="/memento">
+              <li>MEMENTO</li>
+            </Link>
+            <Link to="/floop">
+              <li>FLOOP</li>
+            </Link>
           </ul>
         </div>
       </nav>

@@ -1,11 +1,10 @@
 
 .introduction {
   display: inline-block;
-  width: 90%;
   padding-top: 10px;
   padding-bottom: 50px;
-}
-.introContent {
+  padding-left: 2%;
+  padding-right: 2%;
   font-size: 1.25em;
   line-height: 1.6;
 }
@@ -25,10 +24,7 @@
     width: 60%;
     padding-top: 20px;
     margin: auto;
-  }
-  .introContent {
     font-size: 1.25em;
     line-height: 1.6;
   }
-  
 }

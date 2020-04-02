@@ -16,7 +16,7 @@ class PotOgold extends Component {
     render(){
       return (
         <div className="potogold">
-            <h1>Pot O' Gold</h1>
+            <h2>Pot O' Gold</h2>
               <p>
               Working on the Pot O' Gold practicum winter 2020 was an incredible experience, 
               I was part of the back-end team and I learned a lot of the Cloud Computer fundamentals. 

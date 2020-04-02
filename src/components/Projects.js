@@ -25,18 +25,24 @@ class Projects extends Component {
             </Link>
 			</li>
 			<li>
+			<Link to="/floop">
 				<img src={Number2} alt="Number 2" />
+			</Link>
 			</li>
 			<li>
             <Link to="/potOgold">
 				<img src={Number6} alt="Number 6" />
             </Link>
 			</li>
-			<li>
+			<li>	
+			<a href="https://teamtreehouse.com/joseluislopez" target="_blank" rel="noopener noreferrer" >
 				<img src={Number9} alt="Number 9" />
+			</a>
 			</li>
 			<li>
+			<a href="https://www.datacamp.com/profile/Jose10" target="_blank" rel="noopener noreferrer">
 				<img src={Number12} alt="Number 12" />
+			</a>
 			</li>
 		</ul>
 	</div>

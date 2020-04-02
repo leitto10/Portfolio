@@ -1,4 +1,5 @@
-.mementoDive {
+
+.floopDiv {
     padding-top: 20%;
     text-align: left;
     padding-left: 2%;
@@ -6,16 +7,15 @@
     font-size: 1.25em;
     line-height: 1.6;
   }
-  .mementoDive h2 {
+.floopDiv h2 {
     color: rgb(68, 113, 196);
   }
-
 @media screen and (min-width: 1025px) {
-  .mementoDive {
-    width: 60%;
-    padding-top: 8%;
-    margin: auto;
-    font-size: 1.25em;
-    line-height: 1.6;
-  }
+    .floopDiv {
+      width: 60%;
+      padding-top: 8%;
+      margin: auto;
+      font-size: 1.25em;
+      line-height: 1.6;
+    }
 }

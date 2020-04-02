@@ -23,14 +23,6 @@ class Resume extends Component {
           <li>Data Science development with Python programming tools.</li>
           <li>Cloud Computing Fundamentals with Azure and AWS services.</li>
           <li>Knowledge in Data Structures and Algorithms as well as Web Application Development.</li>
-          <p>
-            <a href="https://www.datacamp.com/profile/Jose10" target="_blank" 
-            rel="noopener noreferrer">https://www.datacamp.com/profile/Jose10</a>
-          </p>
-          <p>
-            <a href="https://teamtreehouse.com/joseluislopez" target="_blank" 
-            rel="noopener noreferrer" >Treehouse Profile</a>
-          </p>
         </div>
         <h2>EDUCATION</h2>
         <div className="bulletPoints">
@@ -39,8 +31,8 @@ class Resume extends Component {
           <li>Associate of Arts and Science, Seattle Central College.                  2015-2018</li>
         </div>
         <h2>RELEVANT EXPERIENCE</h2>
+        <h3>Intern at Glass Eye Studio.</h3>
         <div className="bulletPoints">
-          <h3>Intern at Glass Eye Studio.</h3>
           <li>Creating a Web Application tool with Reactjs for a 2D event space. </li>
         </div>
         <h2>PROJECTS</h2>

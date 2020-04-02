@@ -4,15 +4,10 @@
   text-align: left;
   padding-left: 2%;
   padding-right: 2%;
-}
-.myResume li {
-  font-size: 1.20em;
-  line-height: 1.6;
-}
-p {
   font-size: 1.25em;
   line-height: 1.6;
 }
+
 .myResume h2 {
   color: rgb(68, 113, 196);
 }
@@ -46,5 +41,7 @@ p {
     width: 60%;
     padding-top: 8%;
     margin: auto;
+    font-size: 1.25em;
+    line-height: 1.6;
   }
 }

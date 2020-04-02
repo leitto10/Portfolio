@@ -11,15 +11,21 @@ const SideDrawer = (props) => {
   return(
     <nav className={drawerClasses}>
       <ul onClick={props.click}>
-        <li >
-          <Link to="/" >HOME</Link>
-        </li>
-        <li>
-          <Link to="/resume">RESUME</Link>
-        </li>
-        <li>
-          <Link to="/potogold">POTOGOLD</Link>
-        </li>
+        <Link to="/">
+          <li>HOME</li>
+        </Link>
+        <Link to="/resume">
+          <li>RESUME</li>
+        </Link>
+        <Link to="/potOgold">
+          <li>POTOGOLD</li>
+        </Link>
+        <Link to="/memento">
+          <li>MEMENTO</li>
+        </Link>
+        <Link to="/floop">
+          <li>FLOOP</li>
+        </Link>
       </ul>
     </nav>
   );

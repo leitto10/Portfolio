@@ -9,8 +9,14 @@
   width: 30px;
   height: 30px;
   margin: 0 5px;
+  padding-right: 9px;
 }
 .social-mail {
-  width: 60px;
-  margin: 0 0 -15px -5px;
+  width: 50px;
+  padding: 0;
+  height: 68px;
+  margin: 0 0 -19px -5px;
+}
+.social-linkedin {
+  width: 30px;
 }

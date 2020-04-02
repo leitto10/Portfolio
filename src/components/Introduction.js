@@ -13,7 +13,7 @@ class Introduction extends Component {
       <div>
         <img className="myImage" src={MyImage} alt="" />
         <div className="introduction">
-          <p className="introContent">Hello, my name is Jose and I'm a Software Developer Engineer with Computer Science fundamentals.
+          <p>Hello, my name is Jose and I'm a Software Developer Engineer with Computer Science fundamentals.
           Looking to work on mobile, web apps, databases, projects and find the best problems solving solutions.
           I have worked on projects that involved key concepts such as Linked Lists,
           Binary Search Trees, Databases Normalization, and web/mobile development.</p>
