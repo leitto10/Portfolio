@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4d4d6874b142db535f7cd69936d000e3",
+    "revision": "c6c0e14ab8874052bf15853b14ff893a",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "a00bd481b01ca0d1104e",
+    "revision": "2380fcd6808b3411f60a",
     "url": "/Portfolio/static/css/2.e49e09ab.chunk.css"
   },
   {
-    "revision": "8d08ad02d66262011e01",
-    "url": "/Portfolio/static/css/main.e9e2a70d.chunk.css"
+    "revision": "a627e2b43a70d7595668",
+    "url": "/Portfolio/static/css/main.d02fc3eb.chunk.css"
   },
   {
-    "revision": "a00bd481b01ca0d1104e",
-    "url": "/Portfolio/static/js/2.f2e356a4.chunk.js"
+    "revision": "2380fcd6808b3411f60a",
+    "url": "/Portfolio/static/js/2.b1901c43.chunk.js"
   },
   {
     "revision": "eff3b4d7e4bb0087ce53139cd90bc880",
-    "url": "/Portfolio/static/js/2.f2e356a4.chunk.js.LICENSE.txt"
+    "url": "/Portfolio/static/js/2.b1901c43.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8d08ad02d66262011e01",
-    "url": "/Portfolio/static/js/main.8185937f.chunk.js"
+    "revision": "a627e2b43a70d7595668",
+    "url": "/Portfolio/static/js/main.d7f95aa8.chunk.js"
   },
   {
     "revision": "654ea12aa83236a26bec",
@@ -56,8 +56,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/exampleImage.5f79cd87.png"
   },
   {
+    "revision": "141eaa1af1af959c4d2fb9b1a660d449",
+    "url": "/Portfolio/static/media/firebaseAuth.141eaa1a.png"
+  },
+  {
     "revision": "d6c7579fc9f4b07ac380601248470505",
     "url": "/Portfolio/static/media/floop.d6c7579f.png"
+  },
+  {
+    "revision": "202275cbd1a5d74245506f8ff8a16cf6",
+    "url": "/Portfolio/static/media/floop01.202275cb.PNG"
   },
   {
     "revision": "1167558a71106509191a406afba1567d",
@@ -70,6 +78,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1b8d34a9ebb24c2156170e4f9d9b165d",
     "url": "/Portfolio/static/media/joseluis.1b8d34a9.jpeg"
+  },
+  {
+    "revision": "bedac015c3d849bf38b173b34138a58d",
+    "url": "/Portfolio/static/media/linkedIn.bedac015.png"
   },
   {
     "revision": "aa9661dbd3fd5b158aac086129f9741e",
@@ -98,6 +110,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ce6375183d2d6af0ec04599de648c32d",
     "url": "/Portfolio/static/media/pythonCodigo.ce637518.jpg"
+  },
+  {
+    "revision": "17dbd18dfb87716d272b48bdff8f7d63",
+    "url": "/Portfolio/static/media/realTimeDB.17dbd18d.png"
   },
   {
     "revision": "ab76ae267b5483f0222f8e796835a60e",
