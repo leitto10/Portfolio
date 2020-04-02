@@ -10,7 +10,7 @@ const SideDrawer = (props) => {
   }
   return(
     <nav className={drawerClasses}>
-      <ul onClick={props.click}>
+      <ul className="menubar" onClick={props.click}>
         <Link to="/">
           <li>HOME</li>
         </Link>
