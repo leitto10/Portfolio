@@ -24,6 +24,9 @@ const Nav = (props) => {
             <Link to="/resume">
               <li>RESUME</li>
             </Link>
+            <Link to="/potOgold">
+              <li>POTOGOLD</li>
+            </Link>
           </ul>
         </div>
       </nav>

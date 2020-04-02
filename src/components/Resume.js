@@ -56,10 +56,6 @@ class Resume extends Component {
             <p>Software Developer Engineer – UI Development.            Mobile App Practicum  Fall-2019</p>
             <li>Created React Native components for Android applications.</li>
             <li>Integrating Firebase authentication and database services.</li>
-            <p>
-              <a href="https://play.google.com/store/apps/details?id=com.mementocrm" target="_blank"
-              rel="noopener noreferrer">https://play.google.com/store/apps/details?id=com.mementocrm</a>
-            </p>
           </div>
         <h3>Pot O' Gold Coffee</h3>
           <div className="bulletPoints">

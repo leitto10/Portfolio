@@ -35,7 +35,7 @@ class PotOgold extends Component {
               </p>
               <img src={FuncImage} alt="Functions" />
               <p>
-              We use Postman too to send the HTTP requests and it is one of the tools I felled in love with.
+              We use the Postman tool to send the HTTP requests and it is one of the tools I felled in love with.
               </p>
               <img src={PostmanPut} alt="Postman Put Request" />
               <p>
@@ -50,7 +50,8 @@ class PotOgold extends Component {
               </p>
               <img src={AzureDiagram} alt="Diagram"/>
               <p>
-                This is a diagram example that explains how key-vault service works and is consider cloud security.
+                This is a diagram example that explains how key-vault service works which is also 
+                consider cloud security.
               </p>
               <p>
               Another task was to create a new Azure function that will handle a POST request. 

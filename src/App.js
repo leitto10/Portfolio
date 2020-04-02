@@ -12,7 +12,7 @@ import './App.css'
 
 class App extends Component {
   state = {
-    SideDrawerOpen: false
+    sideDrawerOpen: false
   };
   // this functions to handle the hamburguer button
   drowerToggleClickHandler = () => {
@@ -33,7 +33,7 @@ class App extends Component {
     <Router >
       <div className="App">
       <Nav drowerClickHandler={this.drowerToggleClickHandler}/>
-      <SideDrawer show={this.state.sideDrawerOpen}/>
+      <SideDrawer show={this.state.sideDrawerOpen} click={this.backDropClickHandler}/>
           {backDrop}
         <Switch>
             <Route path="/" exact component={SlideShow}/>
