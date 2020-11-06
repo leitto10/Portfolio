@@ -9,10 +9,7 @@ import '../css/Footer.css';
     render(){
       return (
         <div className="main-footer">
-          <a href="http://gmail.com" target="_blank" rel="noopener noreferrer">
-            <img src={require("../img/mail.png" )} alt="mail" class="social-mail"/>
-          </a>
-          <a href="http://facebook.com/luis.lopez.3956" target="_blank" rel="noopener noreferrer">
+          <a href="http://facebook.com/profile.php?id=100048632082193" target="_blank" rel="noopener noreferrer">
             <img src={require("../img/facebook-wrap.png" )} alt="Facebook Logo" class="social-icon" />
           </a>
           <a href="https://www.linkedin.com/in/jose-llopez/" target="_blank" rel="noopener noreferrer">
