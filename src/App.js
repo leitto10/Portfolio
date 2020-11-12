@@ -7,7 +7,8 @@ import SideDrawer from './components/SideDrawer';
 import BackDrop from './components/BackDrop';
 import MementoCRM from './components/MementoCRM';
 import PotOgold from './components/PotOgold';
-import Floop from './components/Floop';
+import ScoreBoard from './components/ScoreBoard';
+
 import {HashRouter as Router, Route, Switch} from "react-router-dom";
 import './App.css'
 
@@ -40,8 +41,8 @@ class App extends Component {
             <Route path="/" exact component={SlideShow}/>
             <Route path="/resume" component={Resume}/>
             <Route path="/potOgold" component={PotOgold}/>
-            <Route path="/floop" component={Floop}/>
             <Route path="/memento" component={MementoCRM}/>
+            <Route path="/scoreboard" component={ScoreBoard}/>
         </Switch>
         <Footer />
       </div>

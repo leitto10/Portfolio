@@ -4,7 +4,6 @@
 
 import React, {Component} from 'react';
 import Number1 from '../img/mementoLogo.png';
-import Number2 from '../img/floop.png';
 import Number6 from '../img/potOgold01.png';
 import Number9 from '../img/teamTreehouse01.png';
 import Number12 from '../img/dataCamp.png';
@@ -24,11 +23,7 @@ class Projects extends Component {
                 <img src={Number1} alt="Number 1" />
             </Link>
 			</li>
-			<li>
-			<Link to="/floop">
-				<img src={Number2} alt="Number 2" />
-			</Link>
-			</li>
+			
 			<li>
             <Link to="/potOgold">
 				<img src={Number6} alt="Number 6" />

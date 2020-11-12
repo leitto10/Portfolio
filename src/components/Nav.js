@@ -30,8 +30,8 @@ const Nav = (props) => {
             <Link to="/memento">
               <li>MEMENTO</li>
             </Link>
-            <Link to="/floop">
-              <li>FLOOP</li>
+            <Link to="/scoreboard">
+              <li>SCOREBOARD</li>
             </Link>
           </ul>
         </div>
