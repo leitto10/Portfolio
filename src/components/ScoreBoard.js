@@ -6,6 +6,7 @@ import React,{Component} from 'react';
 import Header from './Header';
 import Player from './Player';
 import AddPlayerForm from './AddPlayerForm';
+import Example from '../img/example.png';
 
 import '../css/ScoreBoard.css';
 
@@ -103,6 +104,7 @@ import '../css/ScoreBoard.css';
             If our data comes from one place, React will flow any data changes at the top-down through the 
             component tree, updating each component. This is called unidirectional data flow.
             </p>
+            <img src={Example} alt="resoult." />
           </di>
     </div>
       );
