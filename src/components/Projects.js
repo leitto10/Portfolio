@@ -7,6 +7,7 @@ import Number1 from '../img/mementoLogo.png';
 import Number6 from '../img/potOgold01.png';
 import Number9 from '../img/teamTreehouse01.png';
 import Number12 from '../img/dataCamp.png';
+import ScoreBoard from '../img/ScoreBoard1.png';
 import { Link } from 'react-router-dom';
 
 import '../css/Projects.css';
@@ -23,7 +24,11 @@ class Projects extends Component {
                 <img src={Number1} alt="Number 1" />
             </Link>
 			</li>
-			
+			<li>
+            <Link to="/scoreboard">
+				<img src={ScoreBoard} alt="Number 6" />
+            </Link>
+			</li>
 			<li>
             <Link to="/potOgold">
 				<img src={Number6} alt="Number 6" />
