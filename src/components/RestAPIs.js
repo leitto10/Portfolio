@@ -143,7 +143,9 @@ class RestAPIs extends Component {
                     handleSave={this.handleSave}
                     
                 />
-                <img src={HerokuApp} alt="resoult." />
+                <div className="diagramheroku">
+                    <img src={HerokuApp} alt="resoult." />
+                </div>
             </div>
         );
     }
