@@ -8,6 +8,7 @@ import BackDrop from './components/BackDrop';
 import MementoCRM from './components/MementoCRM';
 import PotOgold from './components/PotOgold';
 import ScoreBoard from './components/ScoreBoard';
+import RestAPIs from './components/RestAPIs';
 
 import {HashRouter as Router, Route, Switch} from "react-router-dom";
 import './App.css'
@@ -43,6 +44,7 @@ class App extends Component {
             <Route path="/potOgold" component={PotOgold}/>
             <Route path="/memento" component={MementoCRM}/>
             <Route path="/scoreboard" component={ScoreBoard}/>
+            <Route path="/restapis" component={RestAPIs} />
         </Switch>
         <Footer />
       </div>

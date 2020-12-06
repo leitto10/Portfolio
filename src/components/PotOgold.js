@@ -17,25 +17,25 @@ class PotOgold extends Component {
       return (
         <div className="potogold">
             <h2>Pot O' Gold</h2>
+            <p></p>
               <p>
-              Working on the Pot O' Gold practicum winter 2020 was an incredible experience, 
-              I was part of the back-end team and I learned a lot of the Cloud Computer fundamentals. 
-              I developed Azure functions and connect them with other services such as SQL databases, 
-              Blob Storage, Seacret Key Vaults, Stream Analytics and more.
+              Working on the Pot O' Gold practicum winter 2020 was an incredible experience.  
+              I was part of the back-end team, and I learned a lot of Cloud Computer fundamentals. 
+              We worked with serverless Azure functions apps to develop API calls.
               </p>
               <p>
-              My first task on this practicum was to create an Azure Stream Analytics that will 
-              handle some of the information coming from the IoT (smart coffee machine).
+              My first task on this project was to create an Azure Stream Analytics that will handle some 
+              of the information coming from the IoT (smart coffee machine).
               </p>
               <p>
-              The second task was to develop the logic for the function that will handle a PUT HTTP request. 
-              The goal here was to send the request with the machine information that the person wishes 
-              to update in the SQL database. Because we had to follow naming conventions software development, 
-              I name it jos-rg-fun-usw2-task62.
+              The second task was to develop the logic for the function app that will handle a PUT HTTP 
+              request. The goal here was to send the request with the machine information that the 
+              person wishes to update in the SQL database. Because we had to follow naming 
+              conventions in software development, I name it jos-rg-fun-usw2-task62.
               </p>
               <img src={FuncImage} alt="Functions" />
               <p>
-              We use the Postman tool to send the HTTP requests and it is one of the tools I felled in love with.
+              We use the Postman to send HTTP requests, and I fell in love with this tool.
               </p>
               <img src={PostmanPut} alt="Postman Put Request" />
               <p>
@@ -44,9 +44,10 @@ class PotOgold extends Component {
               </p>
               <img src={PutReqLogic} alt="Put Request Code" />
               <p>
-              As you can see, I created a few Key-Vault services to store the credentials from the database and blob storage. 
-              The only thing I'm doing in the code is referencing to those the key-vaults so I can access the credentials. 
-              This way, we don't need to have hardcoded credentials in the logic. You can see this under the connection string section.
+              As you can see, I created a few Key-Vault services to store the credentials from the database 
+              and blob storage. The only thing I'm doing in the code is referencing the key-vaults so 
+              I can access the credentials. This way, we don't need to have hardcoded credentials in
+              the logic. You can see this under the connection string section.
               </p>
               <img src={AzureDiagram} alt="Diagram"/>
               <p>
@@ -55,14 +56,15 @@ class PotOgold extends Component {
               </p>
               <p>
               Another task was to create a new Azure function that will handle a POST request. 
-              We needed to save the coffee machines images in the blob storage that will later be referenced to the SQL database. 
-              I really liked the task since we had to encode the image to base64 and send it as part of the json body.
+              We needed to save the coffee machines images in the blob storage that will later be 
+              referenced from the SQL database. I really liked the task since we had to encode the 
+              image to base64 and send it as part of the JSON body.
               </p>
               <img src={ImagePostRe} alt="imagePost request"/>
               <p>
-              The function code handles this encoded json data and decode it to bytes so we could store it in the blob. 
-              The connection string is almost the same as the SQL database but this time, 
-              the blob storage requires multiple secretes for the connection string. 
+              The function code handles this base64 encoded JSON data and decodes it to bytes so we can 
+              store it in the blob storage. The connection string is almost the same as the SQL database, 
+              but this time, the blob storage requires multiple secretes for the connection string. 
               </p>
               <img src={CodePostRe} alt="post request"/>
               <p>

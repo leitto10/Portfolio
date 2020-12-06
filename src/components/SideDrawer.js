@@ -26,6 +26,9 @@ const SideDrawer = (props) => {
         <Link to="/scoreboard">
             <li>SCOREBOARD</li>
         </Link>
+        <Link to="/restapis">
+            <li>RESTAPIs</li>
+        </Link>
       </ul>
     </nav>
   );

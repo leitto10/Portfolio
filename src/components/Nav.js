@@ -33,6 +33,9 @@ const Nav = (props) => {
             <Link to="/scoreboard">
               <li>SCOREBOARD</li>
             </Link>
+            <Link to="/restapis">
+              <li>RESTAPIs</li>
+            </Link>
           </ul>
         </div>
       </nav>
