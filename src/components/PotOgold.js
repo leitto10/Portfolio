@@ -72,7 +72,7 @@ class PotOgold extends Component {
               </p>
               <img src={BlobImage} alt="example" />
               <p>
-                Finally, copying the image linke and past it in the browser to see the results.
+                Finally, copying the image link and past it in the browser to see the results.
               </p>
               <img src={ResultBlob} alt="resoult." />
               <p>

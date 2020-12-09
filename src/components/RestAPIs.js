@@ -16,10 +16,13 @@ const ItemList = (props) => {
 const ItemDetails = (props) => {
     return <div>
         <div className="details">
-            <h3>Details for: {props.item.quote}</h3>
-            quote: <input onChange={props.handleEdit} name="quote"  value={props.item.quote || ""}></input><br/>
-            author: <input onChange={props.handleEdit} name="author" value={props.item.author || ""}></input><br/>
-            date: <input onChange={props.handleEdit} name="date" value={props.item.date || ""}></input>
+            <h3>Click on the quote to see details.</h3>
+            <label for="quote">Quote:</label>
+            <input onChange={props.handleEdit} placeholder="Enter a quote here..." name="quote"  value={props.item.quote || ""}></input><br/>
+            <label for="author">Author:</label>
+            <input onChange={props.handleEdit} placeholder="Jose L Lopez" name="author" value={props.item.author || ""}></input><br/>
+            <label for="date">Date:</label>
+            <input onChange={props.handleEdit} placeholder='"December 25, 2020"' name="date" value={props.item.date || ""}></input>
         </div>
         <p>ID: {props.item._id}</p>
         <button onClick={props.handleClear}>Reset</button>
@@ -126,13 +129,8 @@ class RestAPIs extends Component {
     render(){
         return(
             <div className="restapiss">
-                <h1>still in progress styling...</h1>
                 <h1>REST API's implementation with Node.js, Express, and Heroku.</h1>
-
-                <p>A simple records system using MongoDB, Express.js, React.js, and Node.js 
-                    with real-time Create, Read, Update, and Delete operations.</p>
-                <h3>List of Quotes:</h3>
-
+                <label for="quotes">List of quotes:</label>
                 <ItemList items={this.state.items} handleClick={this.selectItem}/>
                 <br/>
                 <ItemDetails 
@@ -143,7 +141,10 @@ class RestAPIs extends Component {
                     handleSave={this.handleSave}
                     
                 />
+
                 <div className="diagramheroku">
+                <p>A simple records system using MongoDB, Express.js, React.js, and Node.js 
+                    with real-time Create, Read, Update, and Delete operations.</p>
                     <img src={HerokuApp} alt="resoult." />
                 </div>
             </div>

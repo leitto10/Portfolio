@@ -18,7 +18,7 @@ class Resume extends Component {
       </div>
         <h2>SUMMARY</h2>
         <p>I am a Software Engineer with Computer Science fundamentals looking for a full-time job 
-          opportunity to work as a back-end developer for mobile-web apps, cloud computing, 
+          opportunity to work as a full-stack developer for mobile-web apps, cloud computing, 
           or database projects. I'm committed to becoming the best programmer 
           I can be, and therefore I am always looking for resources and opportunities to learn and grow.</p>
         
