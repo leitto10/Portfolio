@@ -2,6 +2,11 @@ import React, { Component } from 'react';
 
 import '../css/RestAPIs.css';
 import HerokuApp from '../img/herocuApp.PNG';
+import GetAll from '../img/getAll.png';
+import GetDetails from '../img/getDetails.png';
+import CreatUpdate from '../img/postQuote.png';
+import DeleteQuote from '../img/deleteQuote.png';
+
 
 const ItemList = (props) => {
     const bullets = props.items.map((item) => {
@@ -16,13 +21,13 @@ const ItemList = (props) => {
 const ItemDetails = (props) => {
     return <div>
         <div className="details">
-            <h3>Click on the quote to see details.</h3>
+            <h3>Select and click on the quote to see details.</h3>
             <label for="quote">Quote:</label>
             <input onChange={props.handleEdit} placeholder="Enter a quote here..." name="quote"  value={props.item.quote || ""}></input><br/>
             <label for="author">Author:</label>
-            <input onChange={props.handleEdit} placeholder="Jose L Lopez" name="author" value={props.item.author || ""}></input><br/>
+            <input onChange={props.handleEdit} placeholder="Author's name" name="author" value={props.item.author || ""}></input><br/>
             <label for="date">Date:</label>
-            <input onChange={props.handleEdit} placeholder='"December 25, 2020"' name="date" value={props.item.date || ""}></input>
+            <input onChange={props.handleEdit} placeholder='"Month day, year"' name="date" value={props.item.date || ""}></input>
         </div>
         <p>ID: {props.item._id}</p>
         <button onClick={props.handleClear}>Reset</button>
@@ -37,7 +42,8 @@ class RestAPIs extends Component {
         super();
         this.state = {
             items: [],
-            currentItem: {}
+            currentItem: {},
+            message: []
         };
         
         this.selectItem = this.selectItem.bind(this);
@@ -65,9 +71,10 @@ class RestAPIs extends Component {
             newData = this.state.items;
             newItem._id = json._id;
             newData.push(newItem);
-            console.log("Record added");
+            console.log("Record added", newItem);
+            
         } else { // update existing item 
-            console.log("Record updated");
+            console.log("Record updated", json);
             newData = this.state.items.map((item) => {
               if (item._id === newItem._id) {
                 item = newItem; 
@@ -81,7 +88,6 @@ class RestAPIs extends Component {
     }
 
     handleDelete(e){
-        console.log('Deleting me');
         let id = this.state.currentItem._id;
         fetch("https://rest-apis-expresss.herokuapp.com/api/v1/delete/" + id)
         .then((response) => {
@@ -93,6 +99,7 @@ class RestAPIs extends Component {
             const remainder = this.state.items.filter((item) => {
                 return item._id !== id;
             })
+            
             // Update state with new array & clear current item
             this.setState({items: remainder, currentItem: {}});
         })
@@ -107,7 +114,6 @@ class RestAPIs extends Component {
     }
 
     handleEdit(e){
-        console.log(e.target.value);
         let newItem = this.state.currentItem;
         newItem[e.target.name] = e.target.value;
         this.setState({currentItem: newItem});
@@ -118,7 +124,6 @@ class RestAPIs extends Component {
     }
 
     selectItem(e){
-        console.log(e.target.innerText);
         const found = this.state.items.find((item) => {
             return item.quote === e.target.innerText;
         });
@@ -129,8 +134,8 @@ class RestAPIs extends Component {
     render(){
         return(
             <div className="restapiss">
-                <h1>REST API's implementation with Node.js, Express, and Heroku.</h1>
-                <label for="quotes">List of quotes:</label>
+                <h2>REST API's implementation with Node.js, Express, and Heroku.</h2>
+                <p for="quotes">List of quotes:</p>
                 <ItemList items={this.state.items} handleClick={this.selectItem}/>
                 <br/>
                 <ItemDetails 
@@ -139,13 +144,29 @@ class RestAPIs extends Component {
                     handleEdit={this.handleEdit}
                     handleDelete={this.handleDelete}
                     handleSave={this.handleSave}
-                    
                 />
 
                 <div className="diagramheroku">
                 <p>A simple records system using MongoDB, Express.js, React.js, and Node.js 
                     with real-time Create, Read, Update, and Delete operations.</p>
                     <img src={HerokuApp} alt="resoult." />
+
+                    <h2>Planning out a REST APIs</h2>
+                    <h4>Get a lits of all the records from MongoDB</h4>
+                    <h5>http://localhost:3000/api/quotes/</h5>
+                    <img src={GetAll} alt="get all quotes"/>
+
+                    <h4>Get details of specifict quote by passing its _id</h4>
+                    <h5>http://localhost:3000/api/v1/detail?id=5f189e91eb966ad4b004ecd8</h5>
+                    <img src={GetDetails} alt="get details of a single quote"/>
+
+                    <h4>Create new record or update an existing quote</h4>
+                    <h5>http://localhost:3000/api/v1/quotes/</h5>
+                    <img src={CreatUpdate} alt="Create or update a quote"/>
+
+                    <h4>Delete a record from our MongoDB</h4>
+                    <h5>http://localhost:3000/api/delete/:id</h5>
+                    <img src={DeleteQuote} alt="Delete a record"/>
                 </div>
             </div>
         );
