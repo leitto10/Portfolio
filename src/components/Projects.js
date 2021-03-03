@@ -8,6 +8,7 @@ import Number6 from '../img/potOgold01.png';
 import Number9 from '../img/teamTreehouse01.png';
 import Number12 from '../img/dataCamp.png';
 import ScoreBoard from '../img/ScoreBoard1.png';
+import CrudAPIs from '../img/crudAPIs.jpg';
 import { Link } from 'react-router-dom';
 
 import '../css/Projects.css';
@@ -43,6 +44,11 @@ class Projects extends Component {
 			<a href="https://www.datacamp.com/profile/Jose10" target="_blank" rel="noopener noreferrer">
 				<img src={Number12} alt="Number 12" />
 			</a>
+			</li>
+			<li>
+            <Link to="/restapis">
+                <img src={CrudAPIs} alt="rest apis" />
+            </Link>
 			</li>
 		</ul>
 	</div>
