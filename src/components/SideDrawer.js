@@ -29,6 +29,9 @@ const SideDrawer = (props) => {
         <Link to="/restapis">
             <li>RESTAPIs</li>
         </Link>
+        {/* <Link to="/gifs">
+            <li>GIFs</li>
+        </Link> */}
       </ul>
     </nav>
   );

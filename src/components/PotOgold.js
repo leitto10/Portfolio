@@ -33,6 +33,10 @@ class PotOgold extends Component {
               person wishes to update in the SQL database. Because we had to follow naming 
               conventions in software development, I name it jos-rg-fun-usw2-task62.
               </p>
+              <p>
+              <a href="https://github.com/North-Seattle-College/ad440-winter2020-tuesday-repo" target="_blank"
+              rel="noopener noreferrer">https://github.com/North-Seattle-College/ad440-winter2020-tuesday-repo</a>
+              </p>
               <img src={FuncImage} alt="Functions" />
               <p>
               We use the Postman to send HTTP requests, and I fell in love with this tool.

@@ -1,0 +1,145 @@
+/* ================================= 
+  Element Styles
+==================================== */
+
+
+
+/* ================================= 
+  Layout Styles
+==================================== */
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+  padding: 0;
+  list-style: none;
+}
+
+.inner,
+.main-content {
+    width: 90%;
+    max-width: 1025px;
+    margin: auto;
+}
+
+.main-header {
+    padding-top: 10%;
+    /*position: fixed;*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    min-height: 80px;
+  }
+
+/* ================================= 
+  Page Components
+==================================== */
+.search-form input:only-of-type {
+    width: 100%;
+    margin-right: -100px;
+    padding-right: 35px;
+  }
+  
+  /*.search-button {
+    float: right;
+    margin-right: -10px;
+  }
+  
+  .icn-search {
+    font-weight: 700;
+  } */
+  
+  .icon-gif {
+    font-size: 6em;
+    margin-bottom: 0;
+    color: #7bcbc4;
+    display: block;
+  }
+  
+  .no-gifs  {
+    color: #7bcbc4;
+    height: 140px;
+    padding-top: 62px;
+    text-align: center;
+    font-size: 1.25em;
+  }
+  
+  .gif-list a {
+    display: block;
+    margin: auto;
+  }
+  
+  
+  
+  .gif-wrap img {
+    min-width: 100%;
+  }
+/* ================================= 
+  Layout Styles
+==================================== */
+
+.is-hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+
+/* ================================= 
+  Media Queries
+==================================== */
+@media (min-width: 0) and (max-width: 549px) {
+    .gif-list li {
+      text-align: center;
+      margin: 20px 0 0;
+      font-size: 0;
+    }
+  }
+
+  @media (min-width: 550px) {
+    .gif-list li {
+      float: left;
+      width: 50%;
+      margin: 0;
+    }
+    .gif-wrap img {
+      height: 235px;
+    }
+    .gif-list .no-gifs {
+      float: none;
+      width: 100%;
+    }
+    .gif-wrap {
+      padding: 0;
+      overflow: hidden;
+      font-size: 0;
+    }
+  }
+
+@media (min-width: 769px) {
+    
+    .main-title {
+      float: left;
+    }
+    .search-form {
+      width: 422px;
+      float: right;
+      margin-top: 34px;
+    }
+    .gif-list li {
+      width: 33.333333333%;
+    }
+  }
+
+  @media (min-width: 769px) { 
+    .gif-list li:nth-of-type(3n+1) {
+      clear: left;
+    }
+  }

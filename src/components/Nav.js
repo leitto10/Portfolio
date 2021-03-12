@@ -36,6 +36,9 @@ const Nav = (props) => {
             <Link to="/restapis">
               <li>RESTAPIs</li>
             </Link>
+            {/* <Link to="/gifs">
+              <li>GIFs</li>
+            </Link> */}
           </ul>
         </div>
       </nav>

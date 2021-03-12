@@ -11,7 +11,7 @@
 
   form {
     display: flex;
-    background-color: #8063FA;
+    
   }
   
   input[type=text] {
@@ -20,11 +20,11 @@
     margin: 15px 10px 15px 15px;
     padding: 10px;
     border-radius: 5px;
-    background-color: #5B45B9;
+    background-color: #8063FA;
     border-style: none;
     text-shadow: none;
     text-transform: uppercase;
-    color: #C7BCF8;
+    
     letter-spacing: 2px;
     outline: none;
   }
@@ -43,7 +43,7 @@
     font-size: .6em;
     margin: 15px 15px 15px 0;
     padding: 10px;
-    background-color: #44338D;
+    background-color: #8063FA;
     border-radius: 5px;
     border: none;
     color: #fff;
@@ -83,12 +83,17 @@
   /* COMPONENT STYLES -------------------- */
   
   .scoreboard {
+    padding-top: 7%;
+    text-align: left;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-weight: 1.25em;
+    line-height: 1.6;
     background: #fff;
-    width: 60%;
     margin: 70px auto;
     border-radius: 6px;
     overflow: hidden;
-    padding-top: 7%;
+    
   }
   
   .player {
@@ -178,13 +183,6 @@
       text-transform: uppercase;
     }
   
-    .stopwatch button:hover,
-    input[type=submit]:hover {
-      background: #fff;
-      color: #44338D;
-      cursor: pointer;
-    }
-  
     .stopwatch h2 {
       font-size: .6em;
       margin: 0;
@@ -232,22 +230,29 @@
 /* =================================
     Media Queries
 ==================================== */
-  @media screen and (max-width: 480px) {
-  
-    .scoreboard {
-      width: 100%;
-    }
-
-    .aboutScoreboard {
-      font-size: 1.25em;
-      line-height: 1.6;
-      padding-bottom: 15%;
-      
-    }
-
-    .aboutScoreboard p{
-      padding-left: 2%;
-      padding-right: 2%;
-    }
+@media screen and (min-width: 1025px) {
+  .scoreboard {
+    width: 60%;
   }
+
+  .aboutScoreboard {
+    line-height: 1.6;
+    padding-bottom: 15%;
+    
+  }
+
+}
+/* @media screen and (max-width: 480px) {
+  
+  .scoreboard {
+    width: 100%;
+  }
+
+  
+
+  .aboutScoreboard p{
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+} */
   

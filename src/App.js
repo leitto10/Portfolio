@@ -9,6 +9,7 @@ import MementoCRM from './components/MementoCRM';
 import PotOgold from './components/PotOgold';
 import ScoreBoard from './components/ScoreBoard';
 import RestAPIs from './components/RestAPIs';
+import Gifs from './components/Gifs';
 
 import {HashRouter as Router, Route, Switch} from "react-router-dom";
 import './App.css'
@@ -45,6 +46,7 @@ class App extends Component {
             <Route path="/memento" component={MementoCRM}/>
             <Route path="/scoreboard" component={ScoreBoard}/>
             <Route path="/restapis" component={RestAPIs} />
+            <Route path="/gifs" component={Gifs} />
         </Switch>
         <Footer />
       </div>

@@ -13,6 +13,9 @@ class MementoCRM extends Component {
       return (
         <div className="mementoDive">
               <h2>MementoCRM</h2>
+              <p>A Customer Relationship Management (CRM) system that allows people to easily manage 
+                notes, reminders, and other contact details such as profile information.
+              </p>
               <p>
               The MementoCRM practicum fall 2019 was my favorite project so far, our client 
               Fabian Garcilazo was very well prepared with amazing material. He had a beautiful 
