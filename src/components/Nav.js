@@ -33,9 +33,9 @@ const Nav = (props) => {
             <Link to="/scoreboard">
               <li>SCOREBOARD</li>
             </Link>
-            <Link to="/restapis">
+            {/* <Link to="/restapis">
               <li>RESTAPIs</li>
-            </Link>
+            </Link> */}
             {/* <Link to="/gifs">
               <li>GIFs</li>
             </Link> */}

@@ -45,11 +45,11 @@ class Projects extends Component {
 				<img src={Number12} alt="Number 12" />
 			</a>
 			</li>
-			<li>
+			{/* <li>
             <Link to="/restapis">
                 <img src={CrudAPIs} alt="rest apis" />
             </Link>
-			</li>
+			</li> */}
 		</ul>
 	</div>
     );

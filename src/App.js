@@ -45,8 +45,7 @@ class App extends Component {
             <Route path="/potOgold" component={PotOgold}/>
             <Route path="/memento" component={MementoCRM}/>
             <Route path="/scoreboard" component={ScoreBoard}/>
-            <Route path="/restapis" component={RestAPIs} />
-            <Route path="/gifs" component={Gifs} />
+            {/* <Route path="/restapis" component={RestAPIs} /> */}
         </Switch>
         <Footer />
       </div>
