@@ -8,7 +8,7 @@ import Number6 from '../img/potOgold01.png';
 import Number9 from '../img/teamTreehouse01.png';
 import Number12 from '../img/dataCamp.png';
 import ScoreBoard from '../img/ScoreBoard1.png';
-import CrudAPIs from '../img/crudAPIs.jpg';
+// import CrudAPIs from '../img/crudAPIs.jpg';
 import { Link } from 'react-router-dom';
 
 import '../css/Projects.css';

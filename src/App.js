@@ -8,10 +8,10 @@ import BackDrop from './components/BackDrop';
 import MementoCRM from './components/MementoCRM';
 import PotOgold from './components/PotOgold';
 import ScoreBoard from './components/ScoreBoard';
-import RestAPIs from './components/RestAPIs';
-import Gifs from './components/Gifs';
+// import RestAPIs from './components/RestAPIs';
+// import Gifs from './components/Gifs';
 
-import {HashRouter as Router, Route, Switch} from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import './App.css'
 
 class App extends Component {
@@ -34,22 +34,20 @@ class App extends Component {
       backDrop = <BackDrop click={this.backDropClickHandler}/>
     }
   return (
-    <Router >
-      <div className="App">
+    <div className="App">
       <Nav drowerClickHandler={this.drowerToggleClickHandler}/>
       <SideDrawer show={this.state.sideDrawerOpen} click={this.backDropClickHandler}/>
           {backDrop}
-        <Switch>
-            <Route path="/" exact component={SlideShow}/>
-            <Route path="/resume" component={Resume}/>
-            <Route path="/potOgold" component={PotOgold}/>
-            <Route path="/memento" component={MementoCRM}/>
-            <Route path="/scoreboard" component={ScoreBoard}/>
+        <Routes>
+            <Route path="/" exact element={<SlideShow />}/>
+            <Route path="/resume" element={<Resume />}/>
+            <Route path="/potOgold" element={<PotOgold />}/>
+            <Route path="/memento" element={<MementoCRM />}/>
+            <Route path="/scoreboard" element={<ScoreBoard />}/>
             {/* <Route path="/restapis" component={RestAPIs} /> */}
-        </Switch>
+        </Routes>
         <Footer />
-      </div>
-    </Router>
+    </div>
   );
   }
 }
